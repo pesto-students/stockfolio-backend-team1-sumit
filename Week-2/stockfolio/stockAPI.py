@@ -7,8 +7,6 @@ import numpy as np
 
 app = FastAPI()
 
-his = equity_history(TCS,"EQ","01-01-2012","02-01-2012")
-print(his)
 
 @app.get("/livedata")
 def livedata(symbol):
@@ -42,5 +40,7 @@ def data(symbol):
       h = equity_history(symbol,series,start_date,end_date)
       f=f'{h.VWAP}'
       result = f[5]+f[6]+f[7]+f[8]+f[9]+f[10]
-      print(result)
       return result
+
+
+

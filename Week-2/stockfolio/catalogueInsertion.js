@@ -14,7 +14,7 @@ let minutes = date_ob.getMinutes();
 let seconds = date_ob.getSeconds();
 
 
-export default function insertStockData(){
+export default function createStockcatalogue(){
 
     var symbolList = ['TCS', 'INFY', 'WIPRO', 'HCLTECH', 'TECHM', 'MINDTREE', 'MPHASIS', 'OFSS', 'PERSISTENT'];
     for (var symbols in symbolList){
@@ -52,11 +52,11 @@ export default function insertStockData(){
 
               var time = (year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
               const catalogueData = (`INSERT INTO "stockcatalogue"("stock", "opening_bal", "closing_bal",
-              "pchange","cagr" , "status", "industry", "timestamp") 
-              VALUES($1, $2, $3, $4, $5, $6, $7, $8)`)
+              "pchange","cagr" , "status", "industry", "timestamp", "quantity") 
+              VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9)`)
     
              var values = [json.info.symbol, json.priceInfo.open, json.priceInfo.lastPrice,
-              json.priceInfo.pChange, cagr, state, json.industryInfo.sector, time];
+              json.priceInfo.pChange, cagr, state, json.industryInfo.sector, time, 1];
     
              pool.query(catalogueData, values)
              
@@ -67,5 +67,4 @@ export default function insertStockData(){
     
   }
 
-
-insertStockData();
+  createStockcatalogue();
