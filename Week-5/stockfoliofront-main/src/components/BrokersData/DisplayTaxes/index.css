@@ -1,0 +1,15 @@
+.TaxesContent {
+  padding-top: 20px;
+  text-align: right;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.TaxesHeading {
+  padding-left: 4%;
+  text-align: left;
+}
+
+.TaxesDescription {
+  width: 60%;
+}

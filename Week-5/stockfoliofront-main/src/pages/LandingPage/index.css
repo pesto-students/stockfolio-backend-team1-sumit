@@ -1,0 +1,327 @@
+.bg {
+  animation: changeBg 8s infinite;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes changeBg {
+  0%,
+  50% {
+    background-image: url("../../Assets/bg_2.png");
+  }
+  60%,
+  100% {
+    background-image: url("../../Assets/bg_3.jpg");
+  }
+}
+
+.gif {
+  width: 70%;
+  height: 70%;
+}
+
+.understandimg,
+.customiseimg,
+.professionalimg {
+  width: 80%;
+  height: 80%;
+}
+
+.home__head__container {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.home__body__container {
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+.invest_h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+  opacity: 70%;
+}
+
+.Intro__info-footer {
+  opacity: 80%;
+  margin-left: 5px;
+}
+
+.other-borkers {
+  margin: 10px;
+}
+
+.NewsSlider {
+  padding-top: 10%;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.NewsTitle {
+  padding-bottom: 6%;
+}
+
+.BrokerBlock {
+  padding-top: 10%;
+  padding-left: 6%;
+}
+
+.BrokerView {
+  background-color: rgb(19, 116, 228);
+  border-radius: 10px;
+  height: 500px;
+  width: 95%;
+  background-image: url("../../Assets/broker-bg.svg"),
+    url("../../Assets/finance-bg-2.svg");
+  background-repeat: no-repeat;
+  background-position-x: right, left;
+  text-align: center;
+}
+
+.BrandsTitle {
+  color: white;
+  padding-top: 7%;
+}
+
+.kiteimg,
+.hdfcimg,
+.iciciimg,
+.kotakimg,
+.upstoximg,
+.angelbrokingimg {
+  height: 20px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15%;
+}
+
+.BrabdSubTitle {
+  color: whitesmoke;
+  block-size: 10%;
+}
+
+.BrandImgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.pattern {
+  text-align: center;
+  background-color: rgb(217, 238, 247);
+  height: 450px;
+  display: cover;
+  background-image: url("../../Assets/InvIdeasPatternRight.svg"),
+    url("../../Assets/InvIdeasPatternLeft.svg");
+  background-repeat: no-repeat;
+  background-position-x: right, left;
+  background-size: 30%;
+}
+
+.startinvestbutton {
+  width: 13%;
+  height: 45px;
+}
+
+.patternPromo {
+  margin: auto;
+  padding-top: 10%;
+}
+
+.bg {
+  animation: changeBg 8s infinite;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes changeBg {
+  0%,
+  50% {
+    background-image: url("../../Assets/bg_2.png");
+  }
+  60%,
+  100% {
+    background-image: url("../../Assets/bg_3.jpg");
+  }
+}
+
+.gif {
+  width: 70%;
+  height: 70%;
+}
+
+.understandimg,
+.customiseimg,
+.professionalimg {
+  width: 80%;
+  height: 80%;
+}
+
+.home__head__container {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.home__body__container {
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+.invest_h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+  opacity: 70%;
+}
+
+.Intro__info-footer {
+  opacity: 80%;
+  margin-left: 5px;
+}
+
+.other-borkers {
+  margin: 10px;
+}
+
+.NewsSlider {
+  padding-top: 10%;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.NewsTitle {
+  padding-bottom: 6%;
+}
+
+.BrokerBlock {
+  padding-top: 10%;
+  padding-left: 6%;
+}
+
+.BrokerView {
+  background-color: rgb(19, 116, 228);
+  border-radius: 10px;
+  height: 500px;
+  width: 95%;
+  background-image: url("../../Assets/broker-bg.svg"),
+    url("../../Assets/finance-bg-2.svg");
+  background-repeat: no-repeat;
+  background-position-x: right, left;
+  text-align: center;
+}
+
+.BrandsTitle {
+  color: white;
+  padding-top: 7%;
+}
+
+.kiteimg,
+.hdfcimg,
+.iciciimg,
+.kotakimg,
+.upstoximg,
+.angelbrokingimg {
+  height: 20px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15%;
+}
+
+.BrabdSubTitle {
+  color: whitesmoke;
+  block-size: 10%;
+}
+
+.BrandImgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.pattern {
+  text-align: center;
+  background-color: rgb(217, 238, 247);
+  height: 450px;
+  display: cover;
+  background-image: url("../../Assets/InvIdeasPatternRight.svg"),
+    url("../../Assets/InvIdeasPatternLeft.svg");
+  background-repeat: no-repeat;
+  background-position-x: right, left;
+  background-size: 30%;
+}
+
+.startinvestbutton {
+  width: 13%;
+  height: 45px;
+}
+
+.patternPromo {
+  margin: auto;
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 700px) {
+  .invest_h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    opacity: 70%;
+    margin-top: 30px;
+  }
+
+  .Intro__info-footer {
+    opacity: 80%;
+    margin-left: 5px;
+    font-size: 13px;
+    grid: flex;
+  }
+
+  .home__body__container {
+    font-size: small;
+  }
+
+  .startinvestbutton {
+    width: 16%;
+    height: 38px;
+    position: inherit;
+  }
+
+  .BrokerView {
+    background-color: rgb(19, 116, 228);
+    border-radius: 10px;
+    height: 300px;
+    width: 95%;
+    background-image: url("../../Assets/broker-bg.svg"),
+      url("../../Assets/finance-bg-2.svg");
+    background-repeat: no-repeat;
+    background-position-x: right, left;
+    text-align: center;
+  }
+
+  .BrandImgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .pattern {
+    text-align: center;
+    background-color: rgb(217, 238, 247);
+    height: 270px;
+    display: cover;
+    background-image: url("../../Assets/InvIdeasPatternRight.svg"),
+      url("../../Assets/InvIdeasPatternLeft.svg");
+    background-repeat: no-repeat;
+    background-position-x: right, left;
+    background-size: 30%;
+  }
+}

@@ -1,0 +1,27 @@
+.EstimationForm {
+  margin: 10px;
+  padding-top: 5%;
+}
+
+.DiscoverBody {
+  background-size: cover;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.Bar {
+  margin: auto;
+}
+
+.BlockCards {
+  padding-top: 3%;
+  width: 100%;
+}
+
+.BrokerTable {
+  padding-top: 5%;
+}
+
+.Taxes {
+  padding-top: 5%;
+}

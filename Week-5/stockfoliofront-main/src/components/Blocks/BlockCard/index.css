@@ -1,0 +1,33 @@
+.block1-it,
+.block1-promote {
+  text-align: left;
+  height: 100%;
+}
+
+.block1-it-container {
+  padding: 20px;
+}
+.make-first-invest-text {
+  max-width: 350px;
+}
+
+.card-details {
+  display: flex;
+}
+.statbox__title {
+  color: #81878c;
+  margin: 0;
+  padding: 0;
+}
+
+.statbox__value {
+  margin: 5px 0;
+}
+
+.card-description {
+  margin: 2px 0 5px 0;
+}
+
+.card:hover {
+  transform: translateX(5px);
+}

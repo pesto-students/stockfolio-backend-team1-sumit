@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "securities_transaction_tax(STT)",
+    "equity_delivery": "equity_delivery: 0.1% on both Buy and Sell",
+    "equity_intraday": "equity_intraday: 0.025% on the Sell Side",
+    "equity_fo": "equity_f&o: 0.01% on Sell Side & 0.017% on Sell Side(on Premium)",
+    "currency_fo": "currency_f&o: No STT",
+    "commodity": "commodity: 0.01% on Sell Side (Non-Agri)"
+  },
+  {
+    "Type": "GST",
+    "equity_delivery": "equity_delivery: 18% on Brokerage + Transaction Charge",
+    "equity_intraday": "equity_intraday: 18% on Brokerage + Transaction Charge",
+    "equity_fo": "equity_f&o: 18% on Brokerage + Transaction Charge",
+    "currency_fo": "currency_f&o: 18% on Brokerage + Transaction Charge",
+    "commodity": "commodity: 18% on Brokerage + Transaction Charge"
+  },
+  {
+    "Type": "SEBI_turnover_fees",
+    "equity_delivery": "equity_delivery: 0.00005% (Rs 5/Crore)",
+    "equity_intraday": "equity_intraday: 0.00005% (Rs 5/Crore)",
+    "equity_fo": "equity_f&o: 0.00005% (Rs 5/Crore)",
+    "currency_fo": "currency_f&o: 0.00005% (Rs 5/Crore)",
+    "commodity": "commodity: 0.00005% (Rs 5/Crore)"
+  }
+]
