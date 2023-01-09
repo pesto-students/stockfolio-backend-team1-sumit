@@ -1,0 +1,30 @@
+.BlockOutline {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  height: 200px;
+  border-radius: 7px;
+}
+
+.block-img {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.block-details {
+  display: flex;
+}
+
+.side-description {
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.It-values {
+  padding-top: 9%;
+  text-align: right;
+}
+
+.bottom-content {
+  width: 50%;
+}
