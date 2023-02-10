@@ -1,0 +1,32 @@
+.all__news {
+  margin: auto;
+  display: grid;
+}
+
+.slide_track {
+  display: flex;
+  grid-gap: 50px;
+  width: calc(300 * 25);
+  animation: scroll 90s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-300px * 25));
+  }
+}
+
+.slide-card {
+  perspective: 50px;
+}
+
+.slide_track:hover {
+  animation-play-state: paused;
+}
+
+.block1-it:hover {
+  transform: translateY(10px);
+}

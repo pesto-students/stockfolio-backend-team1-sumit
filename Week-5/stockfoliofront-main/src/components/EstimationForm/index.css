@@ -1,0 +1,44 @@
+.userEstimation {
+  border-radius: 10px;
+  padding-top: 20px;
+  text-align: right;
+  padding-bottom: 30px;
+  background-color: rgb(235, 224, 255);
+  padding-right: 45px;
+  display: flex;
+}
+
+.FormFields {
+  display: grid;
+  grid-gap: 15px;
+}
+.Elivatedpaper {
+  padding-top: 10px;
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.Outlinepaper {
+  padding-top: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.FormHeading {
+  padding-left: 3%;
+  text-align: left;
+  width: 40%;
+}
+
+.FormTitle {
+  width: 20%;
+  margin: 10px;
+}
+
+.FormDescription {
+  padding-top: 15%;
+  margin: auto;
+}

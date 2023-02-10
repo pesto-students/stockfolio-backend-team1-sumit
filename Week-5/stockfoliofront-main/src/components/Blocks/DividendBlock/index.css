@@ -1,0 +1,33 @@
+.block1-it-container {
+  padding: 20px;
+}
+.block1-it {
+  width: 100%;
+}
+.card-details {
+  display: flex;
+  text-align: left;
+}
+
+.card-img {
+  margin-right: auto;
+  width: "25%";
+  height: 100px;
+}
+.statbox__title {
+  color: #81878c;
+  margin: 0;
+  padding: 0;
+}
+
+.statbox__value {
+  margin: 5px 0;
+}
+
+.card-description {
+  margin: 2px 0 5px 0;
+}
+
+.card:hover {
+  transform: translateZ(5px);
+}
